@@ -37,6 +37,10 @@ android {
 
 dependencies {
 
+    //Google Play Services Location API
+    implementation("com.google.android.gms:play-services-location:21.2.0")
+
+
     implementation(libs.androidx.core.ktx)
     implementation(libs.androidx.appcompat)
     implementation(libs.material)
